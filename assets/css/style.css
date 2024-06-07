@@ -1,0 +1,54 @@
+:root {
+    --bg1: #DC143C;        /* Gryffindor primary color */
+    --bg2: #4169E1;        /* Ravenclaw primary color */
+    --body: #FFFFFF;       /* White for main body text */
+    --brand: #FFFFFF;      /* White for brand elements */
+    --white: #FFD700;      /* Hufflepuff primary color */
+    --p: #FFFFFF;          /* White text color for paragraphs */
+    --bg5: #DC143C;        /* Gryffindor primary color */
+    --bg6: #006400;        /* Slytherin primary color */
+    --bg7: #A52A2A;        /* Hufflepuff secondary color */
+}
+
+body {
+    background-color: var(--brand);
+}
+/* bannner */
+#banner {
+    background-image: url();
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.navbar {
+    background: linear-gradient(to bottom, rgba(9, 8, 10, 0.821), rgba(0, 0, 0, 0.993));
+}
+
+.navbar .nav-link:hover {
+    color: var(--white) !important;
+}
+/* end of navbar */
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 30px;
+}
+.btn-brand {
+    background-color: var(--white);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+#banner {
+    background: url('https://img.freepik.com/free-photo/photo-frame-shopping-trolleys-packets-labels_23-2147961858.jpg?w=996&t=st=1710736171~exp=1710736771~hmac=88feb71a74598af11985bcbbb88c3d1a09c161c7b1faa66540927182235881dd');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
